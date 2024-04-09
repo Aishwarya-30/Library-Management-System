@@ -1,11 +1,5 @@
-Requirements:
-You need to build APIs in FastAPI for the Library Management System, using MongoDB as the database. Make sure you are not connecting to local MongoDB and using MongoDB Atlas M0 cluster (free forever)
-
-The APIs need to follow this specification exactly. That means you need to build all APIs mentioned in the spec document, as well as have the same exact request and response structure.
-
-Make sure -
-You read the description of each API, request body, parameters as well as response body.
-You are sending the correct status code in the response (200, 201, 204, etc)
-You are sending back id and not _id.
-You have the correct endpoint defined
-You are checking which field is required and which is not, by clicking on the Schema button on top of the given sample request body or response body.
+fastapi
+uvicorn
+motor
+pydantic
+typing_extensions
